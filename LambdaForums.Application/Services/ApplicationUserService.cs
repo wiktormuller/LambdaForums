@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LambdaForums.Data;
-using LambdaForums.Data.Models;
+using LambdaForums.Domain.Entities;
 
 namespace LambdaForums.Service
 {

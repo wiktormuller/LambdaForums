@@ -1,5 +1,5 @@
 ﻿using LambdaForums.Data;
-using LambdaForums.Data.Models;
+using LambdaForums.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
