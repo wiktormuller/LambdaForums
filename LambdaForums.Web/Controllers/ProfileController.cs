@@ -1,5 +1,5 @@
-﻿using LambdaForums.Data;
-using LambdaForums.Data.Models;
+﻿using LambdaForums.Domain.Interfaces;
+using LambdaForums.Domain.Entities;
 using LambdaForums.Models.ApplicationUser;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

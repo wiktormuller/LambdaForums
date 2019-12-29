@@ -1,9 +1,9 @@
-﻿using LambdaForums.Data;
+﻿using LambdaForums.Domain.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 
-namespace LambdaForums.Service
+namespace LambdaForums.Application.Services
 {
     public class UploadService : IUpload
     {

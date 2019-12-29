@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LambdaForums.Data;
+using LambdaForums.Domain.Interfaces;
 using LambdaForums.Domain.Entities;
 
-namespace LambdaForums.Service
+namespace LambdaForums.Application.Services
 {
     public class ApplicationUserService : IApplicationUser
     {

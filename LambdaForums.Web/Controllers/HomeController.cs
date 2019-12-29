@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using LambdaForums.Models;
 using LambdaForums.Models.Home;
-using LambdaForums.Data;
+using LambdaForums.Domain.Interfaces;
+using LambdaForums.Domain.Entities;
 using System.Linq;
 using LambdaForums.Models.Post;
-using LambdaForums.Data.Models;
 using LambdaForums.Models.Forum;
 
 namespace LambdaForums.Controllers

@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using LambdaForums.Data;
 using LambdaForums.Models.Reply;
-using LambdaForums.Data.Models;
+using LambdaForums.Domain.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using LambdaForums.Domain.Entities;
 
 namespace LambdaForums.Controllers
 {

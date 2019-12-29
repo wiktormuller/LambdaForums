@@ -1,6 +1,6 @@
 ﻿using System.Linq;
-using LambdaForums.Data;
-using LambdaForums.Data.Models;
+using LambdaForums.Domain.Interfaces;
+using LambdaForums.Domain.Entities;
 using LambdaForums.Models.Forum;
 using LambdaForums.Models.Post;
 using LambdaForums.Models.Search;

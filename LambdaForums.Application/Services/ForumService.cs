@@ -1,4 +1,4 @@
-﻿using LambdaForums.Data;
+﻿using LambdaForums.Domain.Interfaces;
 using LambdaForums.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace LambdaForums.Application
+namespace LambdaForums.Application.Services
 {
     public class ForumService : IForum
     {

@@ -1,4 +1,4 @@
-﻿using LambdaForums.Data;
+﻿using LambdaForums.Domain.Interfaces;
 using LambdaForums.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LambdaForums.Service
+namespace LambdaForums.Application.Services
 {
     public class PostService : IPost
     {
@@ -68,7 +68,7 @@ namespace LambdaForums.Service
         public IEnumerable<Post> GetFilteredPosts(string searchQuery)
         {
             var normalized = searchQuery.ToLower();
-            return GetAll().Where(post 
+            return GetAll().Where(post
                      => post.Title.ToLower().Contains(normalized)
                      || post.Content.ToLower().Contains(normalized));
         }
