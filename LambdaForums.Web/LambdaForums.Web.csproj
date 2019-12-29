@@ -16,7 +16,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\LambdaForums.Data\LambdaForums.Data.csproj" />
+    <ProjectReference Include="..\LambdaForums.Infrastructure\LambdaForums.Infrastructure.csproj" />
     <ProjectReference Include="..\LambdaForums.Application\LambdaForums.Application.csproj" />
   </ItemGroup>
 
