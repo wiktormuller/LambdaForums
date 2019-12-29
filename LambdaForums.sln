@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Data", "LambdaForums.Data\LambdaForums.Data.csproj", "{7AACD42A-D06C-47D7-8EA6-492A5539B5F0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Service", "LambdaForums.Service\LambdaForums.Service.csproj", "{21FF26FB-9E40-46B1-89F6-B2FBFDF2BBA6}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Tests", "LambdaForums.Tests\LambdaForums.Tests.csproj", "{AB07EAEA-2CCC-4CE7-8932-353BED073F91}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Web", "LambdaForums.Web\LambdaForums.Web.csproj", "{B1B51952-E152-4958-886E-977D0E63ABAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaForums.Application", "LambdaForums.Application\LambdaForums.Application.csproj", "{08850ADE-2339-4126-B2D8-1C2FE2DA1C06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{7AACD42A-D06C-47D7-8EA6-492A5539B5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AACD42A-D06C-47D7-8EA6-492A5539B5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AACD42A-D06C-47D7-8EA6-492A5539B5F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21FF26FB-9E40-46B1-89F6-B2FBFDF2BBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21FF26FB-9E40-46B1-89F6-B2FBFDF2BBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21FF26FB-9E40-46B1-89F6-B2FBFDF2BBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21FF26FB-9E40-46B1-89F6-B2FBFDF2BBA6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AB07EAEA-2CCC-4CE7-8932-353BED073F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB07EAEA-2CCC-4CE7-8932-353BED073F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB07EAEA-2CCC-4CE7-8932-353BED073F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{B1B51952-E152-4958-886E-977D0E63ABAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1B51952-E152-4958-886E-977D0E63ABAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1B51952-E152-4958-886E-977D0E63ABAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08850ADE-2339-4126-B2D8-1C2FE2DA1C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08850ADE-2339-4126-B2D8-1C2FE2DA1C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08850ADE-2339-4126-B2D8-1C2FE2DA1C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08850ADE-2339-4126-B2D8-1C2FE2DA1C06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
