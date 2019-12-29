@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System;
 
-namespace LambdaForums.Data.Models
+namespace LambdaForums.Domain.Entities
 {
     public class ApplicationUser : IdentityUser
     {

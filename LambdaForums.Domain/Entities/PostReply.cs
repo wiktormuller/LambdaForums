@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LambdaForums.Data.Models
+namespace LambdaForums.Domain.Entities
 {
     public class PostReply
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LambdaForums.Data.Models
+namespace LambdaForums.Domain.Entities
 {
     public class Forum
     {

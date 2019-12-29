@@ -1,12 +1,12 @@
 ﻿using LambdaForums.Data;
-using LambdaForums.Data.Models;
+using LambdaForums.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace LambdaForums.Service
+namespace LambdaForums.Application
 {
     public class ForumService : IForum
     {

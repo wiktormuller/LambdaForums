@@ -1,4 +1,4 @@
-﻿using LambdaForums.Data.Models;
+﻿using LambdaForums.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LambdaForums.Data
+namespace LambdaForums.Infrastructure
 {
     public class DataSeeder
     {
