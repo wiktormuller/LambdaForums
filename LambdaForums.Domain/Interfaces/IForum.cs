@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LambdaForums.Data
+namespace LambdaForums.Domain.Interfaces
 {
     public interface IForum //interface with a few methods defined on it
     {
