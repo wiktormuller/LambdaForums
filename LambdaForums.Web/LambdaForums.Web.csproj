@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <UserSecretsId>aspnet-LambdaForums-87BA39A6-9721-4DE6-9C31-090544EECC43</UserSecretsId>
+    <UserSecretsId>aspnet-LambdaForums.Web-87BA39A6-9721-4DE6-9C31-090544EECC43</UserSecretsId>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
