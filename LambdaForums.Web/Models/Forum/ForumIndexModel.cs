@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LambdaForums.Models.Forum
+namespace LambdaForums.Web.Models.Forum
 {
     public class ForumIndexModel
     {

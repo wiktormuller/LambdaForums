@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace LambdaForums.Areas.Identity.Pages.Account
+namespace LambdaForums.Web.Areas.Identity.Pages.Account
 {
     public class AccessDeniedModel : PageModel
     {

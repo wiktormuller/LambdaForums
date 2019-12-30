@@ -1,6 +1,6 @@
 ﻿using Microsoft.WindowsAzure.Storage.Blob;
 
-namespace LambdaForums.Domain.Interfaces
+namespace LambdaForums.Application.Interfaces
 {
     public interface IUpload
     {

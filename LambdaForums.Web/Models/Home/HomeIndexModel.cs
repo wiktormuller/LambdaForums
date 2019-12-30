@@ -1,7 +1,7 @@
-﻿using LambdaForums.Models.Post;
+﻿using LambdaForums.Web.Models.Post;
 using System.Collections.Generic;
 
-namespace LambdaForums.Models.Home
+namespace LambdaForums.Web.Models.Home
 {
     public class HomeIndexModel
     {

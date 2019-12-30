@@ -1,6 +1,6 @@
 using System;
 
-namespace LambdaForums.Models
+namespace LambdaForums.Web.Models
 {
     public class ErrorViewModel
     {

@@ -1,7 +1,7 @@
-﻿using LambdaForums.Domain.Interfaces;
+﻿using LambdaForums.Application.Interfaces;
 using LambdaForums.Domain.Entities;
-using LambdaForums.Models.Forum;
-using LambdaForums.Models.Post;
+using LambdaForums.Web.Models.Forum;
+using LambdaForums.Web.Models.Post;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace LambdaForums.Controllers
+namespace LambdaForums.Web.Controllers
 {
     public class ForumController : Controller //inherit from Controller base class
     {

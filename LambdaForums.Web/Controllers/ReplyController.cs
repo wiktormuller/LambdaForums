@@ -1,14 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using LambdaForums.Data;
-using LambdaForums.Models.Reply;
-using LambdaForums.Domain.Interfaces;
+using LambdaForums.Web.Models.Reply;
+using LambdaForums.Application.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using LambdaForums.Domain.Entities;
 
-namespace LambdaForums.Controllers
+namespace LambdaForums.Web.Controllers
 {
     [Authorize]
     public class ReplyController : Controller

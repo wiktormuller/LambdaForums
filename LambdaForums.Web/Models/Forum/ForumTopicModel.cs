@@ -1,7 +1,7 @@
-﻿using LambdaForums.Models.Post;
+﻿using LambdaForums.Web.Models.Post;
 using System.Collections.Generic;
 
-namespace LambdaForums.Models.Forum
+namespace LambdaForums.Web.Models.Forum
 {
     //represents our forum build as a forumlistingmodel to get some basic info about forum
     //and our posts collection build as a postlisting model

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LambdaForums.Domain.Interfaces;
+using LambdaForums.Application.Interfaces;
 using LambdaForums.Domain.Entities;
 
 namespace LambdaForums.Application.Services

@@ -1,12 +1,12 @@
 ﻿using System.Linq;
-using LambdaForums.Domain.Interfaces;
+using LambdaForums.Application.Interfaces;
 using LambdaForums.Domain.Entities;
-using LambdaForums.Models.Forum;
-using LambdaForums.Models.Post;
-using LambdaForums.Models.Search;
+using LambdaForums.Web.Models.Forum;
+using LambdaForums.Web.Models.Post;
+using LambdaForums.Web.Models.Search;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LambdaForums.Controllers
+namespace LambdaForums.Web.Controllers
 {
     public class SearchController : Controller
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LambdaForums.Models.Reply
+namespace LambdaForums.Web.Models.Reply
 {
     public class PostReplyModel //we cannot post replies to replies
     {

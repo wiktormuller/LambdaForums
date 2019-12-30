@@ -1,4 +1,4 @@
-﻿namespace LambdaForums.Models.Post
+﻿namespace LambdaForums.Web.Models.Post
 {
     public class NewPostModel
     {

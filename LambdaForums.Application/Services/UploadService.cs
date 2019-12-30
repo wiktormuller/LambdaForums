@@ -1,4 +1,4 @@
-﻿using LambdaForums.Domain.Interfaces;
+﻿using LambdaForums.Application.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;

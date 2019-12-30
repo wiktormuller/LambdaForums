@@ -1,10 +1,10 @@
-﻿using LambdaForums.Models.Post;
+﻿using LambdaForums.Web.Models.Post;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LambdaForums.Models.Search
+namespace LambdaForums.Web.Models.Search
 {
     public class SearchResultModel
     {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace LambdaForums.Areas.Identity.Pages.Account
+namespace LambdaForums.Web.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class ForgotPasswordConfirmation : PageModel

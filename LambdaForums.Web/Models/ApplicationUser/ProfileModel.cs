@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System;
 
-namespace LambdaForums.Models.ApplicationUser
+namespace LambdaForums.Web.Models.ApplicationUser
 {
     public class ProfileModel
     {

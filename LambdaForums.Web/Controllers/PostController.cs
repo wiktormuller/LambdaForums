@@ -1,7 +1,7 @@
-﻿using LambdaForums.Domain.Interfaces;
+﻿using LambdaForums.Application.Interfaces;
 using LambdaForums.Domain.Entities;
-using LambdaForums.Models.Post;
-using LambdaForums.Models.Reply;
+using LambdaForums.Web.Models.Post;
+using LambdaForums.Web.Models.Reply;
 using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
 
-namespace LambdaForums.Controllers
+namespace LambdaForums.Web.Controllers
 {
     public class PostController : Controller
     {

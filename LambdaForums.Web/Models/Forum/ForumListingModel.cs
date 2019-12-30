@@ -1,4 +1,4 @@
-﻿namespace LambdaForums.Models.Forum
+﻿namespace LambdaForums.Web.Models.Forum
 {
     public class ForumListingModel //it will be a simple POCO class
     {

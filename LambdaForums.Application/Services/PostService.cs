@@ -1,4 +1,4 @@
-﻿using LambdaForums.Domain.Interfaces;
+﻿using LambdaForums.Application.Interfaces;
 using LambdaForums.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;

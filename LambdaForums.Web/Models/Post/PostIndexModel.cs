@@ -1,8 +1,8 @@
-﻿using LambdaForums.Models.Reply;
+﻿using LambdaForums.Web.Models.Reply;
 using System;
 using System.Collections.Generic;
 
-namespace LambdaForums.Models.Post
+namespace LambdaForums.Web.Models.Post
 {
     public class PostIndexModel //we stack replies on to posts
     {

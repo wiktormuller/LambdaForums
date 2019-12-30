@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace LambdaForums.Domain.Interfaces
+namespace LambdaForums.Application.Interfaces
 {
     public interface IPost
     {

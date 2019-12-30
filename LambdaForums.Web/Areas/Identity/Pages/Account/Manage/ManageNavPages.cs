@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace LambdaForums.Areas.Identity.Pages.Account.Manage
+namespace LambdaForums.Web.Areas.Identity.Pages.Account.Manage
 {
     public static class ManageNavPages
     {

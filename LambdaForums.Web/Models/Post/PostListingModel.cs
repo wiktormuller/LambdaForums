@@ -1,6 +1,6 @@
-﻿using LambdaForums.Models.Forum;
+﻿using LambdaForums.Web.Models.Forum;
 
-namespace LambdaForums.Models.Post
+namespace LambdaForums.Web.Models.Post
 {
     public class PostListingModel
     {

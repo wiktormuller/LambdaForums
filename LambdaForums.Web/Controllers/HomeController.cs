@@ -1,14 +1,14 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using LambdaForums.Models;
-using LambdaForums.Models.Home;
-using LambdaForums.Domain.Interfaces;
+using LambdaForums.Web.Models;
+using LambdaForums.Web.Models.Home;
+using LambdaForums.Application.Interfaces;
 using LambdaForums.Domain.Entities;
 using System.Linq;
-using LambdaForums.Models.Post;
-using LambdaForums.Models.Forum;
+using LambdaForums.Web.Models.Post;
+using LambdaForums.Web.Models.Forum;
 
-namespace LambdaForums.Controllers
+namespace LambdaForums.Web.Controllers
 {
     public class HomeController : Controller
     {

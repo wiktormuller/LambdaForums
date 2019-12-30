@@ -1,6 +1,6 @@
-﻿using LambdaForums.Domain.Interfaces;
+﻿using LambdaForums.Application.Interfaces;
 using LambdaForums.Domain.Entities;
-using LambdaForums.Models.ApplicationUser;
+using LambdaForums.Web.Models.ApplicationUser;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
-namespace LambdaForums.Controllers
+namespace LambdaForums.Web.Controllers
 {
     [Authorize]
     public class ProfileController : Controller

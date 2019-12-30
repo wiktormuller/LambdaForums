@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace LambdaForums.Models.Forum
+namespace LambdaForums.Web.Models.Forum
 {
     public class AddForumModel
     {

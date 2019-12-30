@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace LambdaForums.Data.Migrations
+namespace LambdaForums.Infrastructure.Migrations
 {
     public partial class UpdateApplicationUser : Migration
     {
