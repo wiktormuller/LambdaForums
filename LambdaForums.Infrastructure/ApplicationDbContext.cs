@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using LambdaForums.Domain.Entities;
 
-namespace LambdaForums.Application
+namespace LambdaForums.Infrastructure
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

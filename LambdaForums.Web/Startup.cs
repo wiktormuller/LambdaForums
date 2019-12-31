@@ -10,7 +10,6 @@ using LambdaForums.Application.Services;
 using LambdaForums.Infrastructure;
 using LambdaForums.Domain.Entities;
 using LambdaForums.Application.Interfaces;
-using LambdaForums.Application;
 
 namespace LambdaForums
 {
